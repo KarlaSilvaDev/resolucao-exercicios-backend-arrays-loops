@@ -3,7 +3,7 @@ let pares = [];
 
 //Utilizando FOR OF
 
-for (num of original){
+for (let num of original){
     if (num % 2 == 0){
         pares.push(num);
     }
